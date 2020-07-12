@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3521d27e092267439b22daa7b60935b, type: 3}
+  m_Name: FullAuto
+  m_EditorClassIdentifier: 
+  gunName: FullAuto
+  description: Gun Description, use this later!
+  bullet: {fileID: 175134778999652121, guid: c8611d9941f62484f997b7b8c86e22cd, type: 3}
+  minTimeBetweenShots: 0.05
+  ammoCount: 0
+  clipSize: 45
+  isAutomatic: 0
+  useRecoil: 0
+  recoilAmount: 1

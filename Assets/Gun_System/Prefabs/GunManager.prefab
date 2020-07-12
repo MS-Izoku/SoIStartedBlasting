@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6561669812371911219
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6561669812371911217}
+  - component: {fileID: 6561669812371911216}
+  m_Layer: 0
+  m_Name: GunManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6561669812371911217
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6561669812371911219}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.054062, y: 0.16874313, z: 1.9240193}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6561669812371911216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6561669812371911219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af46fb092dcaaba4d9d44cd072db6e68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gunPickupPrefab: {fileID: 8071664969305393151, guid: 65b9db0c376fff849b4b025500dd1a6c,
+    type: 3}
+  gunsInScene:
+  - {fileID: 3932776771017284178, guid: 173296dccccf451469fb48f81aa56711, type: 3}
+  - {fileID: 3932776771017284178, guid: fffb0c22795a27d4db40304e78514f7e, type: 3}
+  - {fileID: 3932776771017284178, guid: f74ad6f427cddb443a874264497cff3c, type: 3}
+  - {fileID: 3932776771017284178, guid: 173296dccccf451469fb48f81aa56711, type: 3}
+  - {fileID: 3932776771017284178, guid: f74ad6f427cddb443a874264497cff3c, type: 3}
+  - {fileID: 3932776771017284178, guid: f74ad6f427cddb443a874264497cff3c, type: 3}
+  - {fileID: 3932776771017284178, guid: bf82faea909060d42853d4562e4544c5, type: 3}
+  - {fileID: 3932776771017284178, guid: bf82faea909060d42853d4562e4544c5, type: 3}

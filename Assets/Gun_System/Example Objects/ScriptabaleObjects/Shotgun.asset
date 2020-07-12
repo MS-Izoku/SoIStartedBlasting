@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3521d27e092267439b22daa7b60935b, type: 3}
+  m_Name: Shotgun
+  m_EditorClassIdentifier: 
+  gunName: Shotgun
+  description: Gun Description, use this later!
+  bullet: {fileID: 175134778999652121, guid: ff04f9f89e636a04995c37b2d08c2984, type: 3}
+  minTimeBetweenShots: 1.5
+  ammoCount: 0
+  clipSize: 6
+  isAutomatic: 0
+  useRecoil: 0
+  recoilAmount: 1

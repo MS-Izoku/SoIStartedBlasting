@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3521d27e092267439b22daa7b60935b, type: 3}
+  m_Name: Pistol
+  m_EditorClassIdentifier: 
+  gunName: Pistol
+  description: Gun Description, use this later!
+  bullet: {fileID: 2186040038041738884, guid: e76d279b7fb2d104ba9ae81f6ab6ff6b, type: 3}
+  minTimeBetweenShots: 0.25
+  ammoCount: 0
+  clipSize: 15
+  isAutomatic: 0
+  useRecoil: 0
+  recoilAmount: 1
